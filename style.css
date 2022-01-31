@@ -1,0 +1,14 @@
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+@keyframes something {
+    from {padding-top: 20px;}
+    to {padding-top: 0px;}
+}
+
+h1 {
+    color: darkslategray;
+    animation-name: something;
+    animation-duration: 1s;
+}
