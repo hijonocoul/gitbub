@@ -1,14 +1,18 @@
 * {
-    font-family: Helvetica, sans-serif;
+    font-family: 'Montserrat', serif;
 }
 
 @keyframes something {
-    from {padding-top: 20px;}
-    to {padding-top: 0px;}
+    from {
+        padding-top: 20px;
+        color: transparent;}
+    to {
+        padding-top: 0px;
+        color: darkslategrey;}
 }
 
-h1 {
-    color: darkslategray;
+.title {
+    color: darkslategrey;
     animation-name: something;
     animation-duration: 1s;
 }
